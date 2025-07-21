@@ -1,0 +1,37 @@
+.map-wrapper {
+  width: 100%;
+}
+.leaflet-map {
+  height: 80vh;
+  width: 100%;
+}
+
+.map-controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  justify-content: center;
+}
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-start {
+  background: #22c55e;
+  color: white;
+}
+.btn-pause {
+  background: #facc15;
+  color: black;
+}
+.btn-reset {
+  background: #64748b;
+  color: white;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
